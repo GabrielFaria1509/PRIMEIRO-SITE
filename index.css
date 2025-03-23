@@ -1,21 +1,55 @@
-body{
+body{         /* body é o corpo do site */
+    /* background color é o fundo , color é a cor fa letra */
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;   
 }
-ul{
-    display: flex; /* centraliza os elementos da lista */
-    justify-content: space-between; /* espaço entre os elementos */
-    list-style-type: none;      /* remove os pontos da lista */
-    align-items: center;        /* centraliza os elementos verticalmente */
-    padding: 16px;                 /* remove o padding padrão */
-    
+ul{   /* ul é uma lista não ordenada */
+    display: flex;        /* flex é um display que permite alinhar os elementos de forma mais fácil */
+    justify-content: space-between; /* space-between é um justify-content que alinha os elementos de forma que eles fiquem espaçados */
+    list-style-type: none;     /* list-style-type é um estilo que remove os pontos da lista */
+    align-items: center;       /* align-items é um display que alinha os elementos de forma mais fácil */
+    padding: 16px;             /* padding é um espaçamento interno */
 }
-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border:5px solid orange;
-    
-    
+a{    /* a é um link */
+    color: white;
+    text-decoration: none;    /* text-decoration é um estilo que remove o sublinhado do link */
+}
+header img{
+    width: 150px;    /* width é a largura da imagem */
+    height: 150px;   /* height é a altura da imagem */
+    border-radius: 50%;  /* border-radius é um estilo que arredonda as bordas da imagem */
+    border : #00ffff solid 3px     /* border é uma borda */
+}
+.center{              /* center é uma classe(classe em css usa um ponto antes do nome) */
+    text-align: center;   /* text-align é um estilo que centraliza o texto */
 
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;  /* font-family é a fonte do texto */
+    width: 30%;  /* width é a largura do texto */
+    color: #00ffff;
+    
+}
+footer img{          /* img é uma imagem */
+    width: 40px;
+    height: 40px;
+}
+footer{          /* footer é o rodapé do site */
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    color: #00ffff;
+    margin-top: 2px;
+}
+.container{
+    padding:0px 50px; /* padding é um espaçamento interno(em cima x em baixo , direita x esquerda) */
+} 
+nav a:hover{     /* hover é um estilo que é aplicado quando o mouse passa por cima do elemento */
+    color: #00ffff
 }
